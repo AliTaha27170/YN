@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Tajawal&display=swap');
+
+$c1: rgb(14, 175, 237);
+$c2: rgb(0, 26, 75);
+$fnt: "Baloo Da 2";
+$fnt2: "Tajawal";
+// $fnt: "Montserrat";
+
+* {
+    font-family: $fnt, $fnt2;
+    outline: none !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@mixin btn2() {
+    background: #eee;
+    color: #2D2D2D;
+    border-radius: 50px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    padding: 5px 12px;
+    cursor: pointer;
+}

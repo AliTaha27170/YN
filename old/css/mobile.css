@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Tajawal&display=swap");
+* {
+  font-family: "Baloo Da 2", "Tajawal";
+  outline: none !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 1320px) {
+  body .services-parent {
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+}
+
+@media (max-width: 1170px) {
+  body .home-slider .slider-item {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+  }
+  body .home-slider .slider-item .filter {
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    border-right: none;
+    border-left: none;
+    -webkit-transform: none;
+            transform: none;
+    z-index: 0;
+    outline-width: unset !important;
+    outline-color: unset !important;
+    outline-style: unset !important;
+  }
+  body .services-parent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .services-parent .service-box {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+  body .warehouse-parent .side-title h1 {
+    font-size: 55px;
+  }
+  body nav {
+    background: #fff;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 0 8px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0 0 8px;
+  }
+  body nav .top-nav {
+    display: none;
+  }
+  body nav .bottom-nav {
+    height: 75px;
+  }
+  body nav .bottom-nav .logo {
+    width: 235px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+  }
+  body nav .bottom-nav .links-parent {
+    display: none;
+  }
+  body nav .bottom-nav .nav-toggle {
+    display: block;
+  }
+  body .wh-header {
+    text-align: center;
+  }
+  body .wh-header::after {
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+  }
+  body .wh-header .side-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .wh-header .side-title h1 {
+    font-size: 45px;
+    line-height: normal;
+  }
+  body .wh-header .circles-parent {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 25px;
+  }
+  body .wh-header .circles-parent .circle-item {
+    width: 120px;
+    height: 120px;
+  }
+  body .wh-header .circles-parent .circle-item img {
+    width: 42px;
+    height: 42px;
+  }
+  body .wh-header .circles-parent .circle-item p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  body .watch-box .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  body footer .row {
+    padding: 20px 3%;
+  }
+  body footer .logo {
+    width: 60%;
+    margin: 15px auto;
+    display: block;
+  }
+  body footer h2 {
+    margin-top: 25px;
+  }
+  body .page-title {
+    font-size: 35px;
+  }
+  body .wwr-box,
+  body .st-box,
+  body .faq-parent {
+    padding-right: 3% !important;
+    padding-left: 3% !important;
+  }
+  body .career-header-box h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 500px) {
+  body .warehouse-parent .side-title h1 {
+    font-size: 40px;
+    margin: auto;
+    line-height: normal;
+  }
+  body .home-slider .slider-item .slider-content h2 {
+    font-size: 35px;
+  }
+  body .home-slider .slider-item .slider-content h1 {
+    font-size: 50px;
+  }
+  body .home-slider .slider-item .slider-content p {
+    font-size: 20px;
+  }
+  body .ser-header {
+    background-position: center;
+  }
+  body .ser-header h1 {
+    font-size: 35px;
+  }
+  body .ser-header::after {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 26, 75, 0.46)), to(rgba(0, 0, 0, 0.82)));
+    background: linear-gradient(180deg, rgba(0, 26, 75, 0.46) 0%, rgba(0, 0, 0, 0.82) 100%);
+  }
+}
+
+@media (max-width: 991px) {
+  body .counting-parent {
+    padding: 50px 5%;
+    background-size: cover;
+  }
+  body .counting-parent ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .counting-parent ul li {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 25px;
+  }
+  body .counting-parent ul li h1 {
+    font-size: 25px;
+  }
+  body .career-box {
+    width: 92% !important;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */

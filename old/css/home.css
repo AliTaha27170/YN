@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Tajawal&display=swap");
+* {
+  font-family: "Baloo Da 2", "Tajawal";
+  outline: none !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-slider .slider-item {
+  height: 500px;
+  background-size: 68%;
+  background-position: right;
+  padding: 0 4%;
+}
+
+.home-slider .slider-item .slider-content {
+  z-index: 1;
+  position: relative;
+}
+
+.home-slider .slider-item .slider-content p {
+  font-size: 15px;
+  color: #707070;
+  margin-top: 180px;
+}
+
+.home-slider .slider-item .slider-content h1 {
+  font-size: 67px;
+  color: #0EAFED;
+  margin: 0;
+  margin-bottom: 27px;
+  line-height: 34px;
+  font-family: "Tajawal";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.home-slider .slider-item .slider-content h2 {
+  font-size: 50px;
+  color: #001a4b;
+  margin: 0;
+  line-height: 50px;
+  font-family: "Tajawal";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.home-slider .slider-item .slider-content h3 {
+  color: #161616;
+  font-weight: normal;
+}
+
+.home-slider .slider-item .filter {
+  background: rgba(255, 255, 255, 0.93);
+  position: absolute;
+  top: 0;
+  left: -7%;
+  height: 100%;
+  width: 60%;
+  border-right: #001a4b 12px solid;
+  -webkit-transform: skewX(17deg);
+          transform: skewX(17deg);
+  z-index: 0;
+  outline-width: 12px !important;
+  outline-color: #0eafed !important;
+  outline-style: solid !important;
+}
+
+.watch-parent {
+  background: white;
+  background: linear-gradient(135deg, white 0%, white 50%, #f8f8f8 50%, #f8f8f8 100%);
+  border-top: #f3f3f3 1px solid;
+  padding: 50px 0;
+}
+
+.watch-parent .watch-box {
+  padding: 30px 6%;
+}
+
+.watch-parent .watch-box h2 {
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.watch-parent .watch-box p {
+  font-size: 18px;
+}
+
+.watch-parent .watch-box .video-box {
+  border-radius: 10px;
+  overflow: hidden;
+  border: #ddd 1px solid;
+  width: 90%;
+  padding-top: 53%;
+  display: block;
+  margin: auto;
+  position: relative;
+  background-image: url("/img/video.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.watch-parent .watch-box .video-box img {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  z-index: 2;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  border-radius: 150px;
+}
+
+.watch-parent .watch-box .video-box::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  background: -webkit-gradient(linear, left top, right top, from(#001a40), to(white));
+  background: linear-gradient(90deg, #001a40 0%, white 100%);
+  opacity: 0.22;
+  z-index: 1;
+  -webkit-transition: 0.8s all;
+  transition: 0.8s all;
+}
+
+.watch-parent .watch-box .video-box:hover {
+  background-size: 102% 102%;
+}
+
+.watch-parent .watch-box .video-box:hover::after {
+  opacity: 0.4;
+}
+
+.watch-parent .watch-box .video-box:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 0 8px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0 0 8px;
+}
+
+.warehouse-parent {
+  padding: 50px 8%;
+  background-image: url("/img/med-bg1.jpg");
+  background-attachment: fixed;
+  width: 100%;
+  position: relative;
+  color: #fff;
+}
+
+.warehouse-parent .row {
+  position: relative;
+  z-index: 2;
+}
+
+.warehouse-parent .side-title img {
+  height: 150px;
+}
+
+.warehouse-parent .side-title h1 {
+  font-size: 60px;
+  margin: 0;
+  font-family: "Tajawal";
+  line-height: 80px;
+}
+
+.warehouse-parent h2 {
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.warehouse-parent p {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.warehouse-parent a {
+  background: #fff;
+  color: #0eafed;
+}
+
+.warehouse-parent::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #0eafed;
+  background: -webkit-gradient(linear, left top, right top, from(#13546d), to(#0eafed));
+  background: linear-gradient(90deg, #13546d 0%, #0eafed 100%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0.86;
+}
+
+.counting-parent {
+  width: 100%;
+  margin: 80px 0;
+  padding: 130px 10%;
+  background-image: url("/img/map-bg.png");
+  background-position: center;
+  background-size: contain;
+}
+
+.counting-parent ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.counting-parent ul li {
+  width: 200px;
+  height: 200px;
+  background: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.85)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 100px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: #fff 3px solid;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0 3px 32px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0 3px 32px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.counting-parent ul li h1 {
+  color: #0eafed;
+  font-size: 35px;
+  text-align: center;
+  line-height: 1;
+  width: 100%;
+  margin: 0;
+}
+
+.counting-parent ul li p {
+  color: #222;
+  font-size: 30px;
+  margin: 0;
+  line-height: 1;
+  width: 100%;
+}
+
+.counting-parent ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=home.css.map */

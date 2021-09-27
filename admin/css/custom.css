@@ -1,0 +1,71 @@
+body table.m-data-table td {
+  vertical-align: middle !important;
+}
+
+body table.m-data-table td.btns-control {
+  width: 20%;
+  text-align: center;
+}
+
+body table.m-data-table td.btns-control a {
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 3px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 6px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+body table.m-data-table td.btns-control a.edit-btn {
+  background: #149eee;
+}
+
+body table.m-data-table td.btns-control a.delete-btn {
+  background: #ee3514;
+}
+
+body table.m-data-table td.btns-control a img {
+  height: 20px;
+}
+
+body .trumbowyg-insertImage-button {
+  display: none !important;
+}
+
+body .form-group textarea {
+  min-height: 250px;
+}
+
+body .resume-item {
+  padding: 15px;
+  border-radius: 8px;
+  border: #ddd 1px solid;
+  margin-bottom: 15px;
+}
+
+body .resume-item td {
+  padding: 6px;
+}
+
+body .resume-item td:nth-child(1) {
+  background: #3c4b64;
+  color: #fff;
+}
+
+body .resume-item td:nth-child(2) {
+  padding-right: 15px;
+}
+
+body .resume-item .btns {
+  padding: 6px;
+  text-align: center;
+}
+
+body .resume-item table {
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,67 @@
+body {
+    table.m-data-table {
+        td {
+            vertical-align: middle !important;
+            &.btns-control {
+                width: 20%;
+                text-align: center;
+                a {
+                    background: none;
+                    border: none;
+                    color: #fff;
+                    padding: 3px;
+                    height: 30px;
+                    width: 30px;
+                    text-align: center;
+                    border-radius: 6px;
+                    display: inline-block;
+                    cursor: pointer;
+                    &.edit-btn {
+                        background: rgb(20, 158, 238);
+                    }
+                    &.delete-btn {
+                        background: rgb(238, 53, 20);
+                    }
+                    img {
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .trumbowyg-insertImage-button {
+        display: none !important;
+    }
+    .form-group textarea {
+        min-height: 250px;
+    }
+
+    .resume-item{
+        padding: 15px;
+        border-radius: 8px;
+        border: #ddd 1px solid;
+        margin-bottom: 15px;
+
+        td{
+            padding: 6px;
+        }
+
+        td:nth-child(1){
+            background: #3c4b64;
+            color: #fff
+        }
+
+        td:nth-child(2){
+            padding-right: 15px;
+        }
+
+        .btns{
+            padding: 6px;
+            text-align: center;
+        }
+
+        table{
+            margin-bottom: 25px;
+        }
+    }
+}

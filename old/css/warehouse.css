@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Tajawal&display=swap");
+* {
+  font-family: "Baloo Da 2", "Tajawal";
+  outline: none !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wh-header {
+  padding: 50px 6%;
+  background-image: url("/img/med-bg1.jpg");
+  background-position: 0 68px;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  color: #fff;
+  margin-top: 74px;
+}
+
+.wh-header .row {
+  position: relative;
+  z-index: 2;
+}
+
+.wh-header .side-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.wh-header .side-title img {
+  height: 130px;
+  margin-right: 35px;
+  margin-top: 15px;
+}
+
+.wh-header .side-title h1 {
+  font-size: 58px;
+  margin: 0;
+  line-height: 80px;
+  font-family: "Tajawal";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.wh-header .circles-parent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wh-header .circles-parent > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wh-header .circles-parent .circle-item {
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 9px 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(rgba(255, 255, 255, 0.68)));
+  background: linear-gradient(180deg, white 0%, rgba(255, 255, 255, 0.68) 100%);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 3px 34px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0 3px 34px;
+}
+
+.wh-header .circles-parent .circle-item img {
+  height: 56px;
+  width: 56px;
+}
+
+.wh-header .circles-parent .circle-item p {
+  margin: 0;
+  font-size: 25px;
+  color: #001a4b;
+  font-weight: bold;
+}
+
+.wh-header h2 {
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.wh-header p {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.wh-header a {
+  background: #fff;
+  color: #0eafed;
+}
+
+.wh-header::after {
+  content: '';
+  width: 65%;
+  height: 100%;
+  background: #0eafed;
+  background: -webkit-gradient(linear, left top, right top, from(#13546d), to(#0eafed));
+  background: linear-gradient(90deg, #13546d 0%, #0eafed 100%);
+  position: absolute;
+  top: 0;
+  left: -10%;
+  z-index: 1;
+  opacity: 0.86;
+  -webkit-transform: skewX(26deg);
+          transform: skewX(26deg);
+}
+
+.wwr-parent {
+  background: white;
+  background: linear-gradient(135deg, white 0%, white 50%, #f8f8f8 50%, #f8f8f8 100%);
+  border-top: #f3f3f3 1px solid;
+  padding: 50px 0;
+}
+
+.wwr-parent .wwr-box {
+  padding: 30px 6%;
+}
+
+.wwr-parent .wwr-box h2 {
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.wwr-parent .wwr-box p {
+  font-size: 18px;
+}
+
+.wwr-parent .wwr-box .img-box {
+  border-radius: 10px;
+  overflow: hidden;
+  border: #ddd 1px solid;
+  width: 90%;
+  height: 315px;
+  display: block;
+  margin: auto;
+  position: relative;
+  background-image: url("/img/med-bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0 3px 6px;
+}
+
+.st-parent {
+  border-top: #f3f3f3 1px solid;
+  padding: 50px 0;
+}
+
+.st-parent .st-box {
+  padding: 30px 6%;
+}
+
+.st-parent .st-box h2 {
+  margin-top: 35px;
+  font-size: 30px;
+}
+
+.st-parent .st-box p {
+  font-size: 18px;
+}
+
+.st-parent .st-box .img-box {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.faq-parent {
+  padding: 45px 8%;
+  background-image: url("/img/map-bg.png");
+}
+
+.faq-parent .title {
+  color: #222;
+  font-size: 45px;
+  margin: 0;
+}
+
+.faq-parent .accordion__panel[aria-hidden="false"] {
+  background: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.faq-parent button {
+  -webkit-transform: scale(1) !important;
+          transform: scale(1) !important;
+  background: #0eafed !important;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.faq-parent button::after {
+  border-top-color: #fff !important;
+}
+
+.faq-parent .accordion__heading {
+  border: none;
+  margin-top: 15px;
+}
+
+.faq-parent .msg-box {
+  background: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0 3px 6px;
+  padding: 30px;
+}
+
+.faq-parent .msg-box h1 {
+  color: #0eafed;
+  margin: 0;
+  font-size: 35px;
+  line-height: 1;
+}
+
+.faq-parent .msg-box h2 {
+  color: #0eafed;
+  margin: 0;
+  line-height: 1;
+  font-size: 25px;
+}
+
+.faq-parent .msg-box h3 {
+  margin: 15px 0;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.faq-parent .msg-box input {
+  margin-bottom: 15px;
+}
+
+.faq-parent .msg-box textarea {
+  resize: none;
+  height: 110px;
+}
+/*# sourceMappingURL=warehouse.css.map */

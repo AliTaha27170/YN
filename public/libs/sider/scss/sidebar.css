@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+  font: 1em/1 "Open Sans", sans-serif;
+  padding: 20px;
+  color: #333;
+}
+
+a {
+  color: #fff;
+  background: #99e024;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  opacity: .75;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.main {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sidebar {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9990;
+  max-width: 300px;
+  background: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 10px 0 30px rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateX(-120%);
+          transform: translateX(-120%);
+  -webkit-transition: all 0.3s cubic-bezier(0.35, 0.38, 0.07, 0.83);
+  transition: all 0.3s cubic-bezier(0.35, 0.38, 0.07, 0.83);
+  overflow: auto;
+}
+
+.sidebar .close .btn-close {
+  background: #cf2828;
+  float: right;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.sidebar .close::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+
+.sidebar.right {
+  left: initial;
+  right: 0;
+  -webkit-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+          box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateX(120%);
+          transform: translateX(120%);
+}
+
+.sidebar.right .close .btn-close {
+  float: left;
+}
+
+.sidebar.active {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.sidebar .content {
+  padding: 10px;
+}
+
+.sidebar .content {
+  line-height: 1.5;
+  font-size: .875em;
+}
+
+.sidebar .content ul,
+.sidebar .content ol {
+  margin: 20px 0 20px 20px;
+}
+/*# sourceMappingURL=sidebar.css.map */

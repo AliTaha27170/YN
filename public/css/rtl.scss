@@ -1,0 +1,117 @@
+@import "_base";
+
+body {
+    direction: rtl !important;
+
+    .ltr {
+        direction: ltr !important;
+    }
+
+    nav {
+        .top-nav {
+            padding: 10px 15px;
+        }
+
+        .bottom-nav {
+            padding: 10px 10px 10px 0px;
+
+            ul {
+                padding-right: 0px;
+                padding-left: 25px;
+                border-radius: 0px 50px 50px 0px;
+            }
+        }
+
+
+    }
+
+
+    .home-slider {
+        .slider-item {
+            background-position: left;
+
+            .filter {
+                left: unset;
+                right: -7%;
+                border-radius: none;
+                border-left: #001a4b 12px solid;
+                transform: skewX(-17deg);
+
+            }
+        }
+    }
+
+    .services-parent {
+        .service-box {
+            h2 {
+                line-height: 1;
+            }
+
+            h1 {
+                line-height: 2;
+            }
+
+            img {
+                right: unset;
+                left: -26%;
+            }
+        }
+
+        .service-box2 {
+            h1 {
+                margin-left: 0px;
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .wh-header {
+        &::after {
+            right: -10%;
+            left: unset;
+            transform: skewX(-26deg);
+        }
+
+        .side-title {
+            img {
+                margin-right: 0px;
+                margin-left: 35px;
+            }
+        }
+    }
+
+    .jobs-box .jobs-parent .job-location img {
+        margin-right: 0px;
+        margin-left: 5px;
+    }
+
+    .career-box {
+        .contact-info-box img {
+            margin-right: 0px;
+            margin-left: 15px;
+        }
+
+    }
+
+    .accordion__heading {
+        button {
+            text-align: right;
+
+        }
+
+        .accordion__trigger:after {
+            right: unset;
+            left: 1em;
+        }
+    }
+
+    footer {
+        ul {
+            border-left: none;
+            border-right: 2px $c1 solid;
+            padding-right: 10px;
+            padding-left: 0px;
+        }
+    }
+
+}

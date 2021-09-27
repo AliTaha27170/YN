@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Tajawal&display=swap");
+* {
+  font-family: "Baloo Da 2", "Tajawal";
+  outline: none !important;
+  -webkit-box-sizing: border-box !important;
+          box-sizing: border-box !important;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  direction: rtl !important;
+}
+
+body .ltr {
+  direction: ltr !important;
+}
+
+body nav .top-nav {
+  padding: 10px 15px;
+}
+
+body nav .bottom-nav {
+  padding: 10px 10px 10px 0px;
+}
+
+body nav .bottom-nav ul {
+  padding-right: 0px;
+  padding-left: 25px;
+  border-radius: 0px 50px 50px 0px;
+}
+
+body .home-slider .slider-item {
+  background-position: left;
+}
+
+body .home-slider .slider-item .filter {
+  left: unset;
+  right: -7%;
+  border-radius: none;
+  border-left: #001a4b 12px solid;
+  -webkit-transform: skewX(-17deg);
+          transform: skewX(-17deg);
+}
+
+body .services-parent .service-box h2 {
+  line-height: 1;
+}
+
+body .services-parent .service-box h1 {
+  line-height: 2;
+}
+
+body .services-parent .service-box img {
+  right: unset;
+  left: -26%;
+}
+
+body .services-parent .service-box2 h1 {
+  margin-left: 0px;
+  margin-right: 15px;
+}
+
+body .wh-header::after {
+  right: -10%;
+  left: unset;
+  -webkit-transform: skewX(-26deg);
+          transform: skewX(-26deg);
+}
+
+body .wh-header .side-title img {
+  margin-right: 0px;
+  margin-left: 35px;
+}
+
+body .jobs-box .jobs-parent .job-location img {
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+body .career-box .contact-info-box img {
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+body .accordion__heading button {
+  text-align: right;
+}
+
+body .accordion__heading .accordion__trigger:after {
+  right: unset;
+  left: 1em;
+}
+
+body footer ul {
+  border-left: none;
+  border-right: 2px #0eafed solid;
+  padding-right: 10px;
+  padding-left: 0px;
+}
+/*# sourceMappingURL=rtl.css.map */
