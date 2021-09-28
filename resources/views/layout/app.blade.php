@@ -181,7 +181,7 @@
                     <li>
                         <a href="#">
                             <img src="/img/icons/clock.svg" alt="">
-                            <span>{{ __('home.here') }} 6:00 م</span>
+                            <span>{{ __('home.here') }}</span>
                         </a>
                     </li>
 

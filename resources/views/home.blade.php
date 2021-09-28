@@ -54,7 +54,7 @@
     </h1>
     <br>
     <div class="watch-box">
-        <div class="row">
+        <div class="row" id="Video-Center">
             <div class="col-lg-" style="max-width: 100% ;">
                 <div class="video-bo">
                     <iframe width="580px"  height="380px" style="margin: 26px"

@@ -168,7 +168,8 @@ body {
     font-size: 35px;
   }
   body .home-slider .slider-item .slider-content h1 {
-    font-size: 50px;
+    font-size: 45px;
+    line-height: 1;
   }
   body .home-slider .slider-item .slider-content p {
     font-size: 20px;

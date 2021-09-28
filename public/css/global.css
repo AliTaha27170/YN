@@ -352,6 +352,20 @@ button:active {
   margin-top: 15px;
   font-weight: normal;
 }
+.video-bo iframe
+{
+ border-radius: 5px;
+}
+#Video-Center
+{
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .video-bo iframe
+{
+  width: 90%;
+}
+}
 
 .banner-title {
   background-size: cover;

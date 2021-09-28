@@ -16,6 +16,9 @@ a {
 }
 
 body {
+  direction: ltr !important;
+}
+body * {
   direction: rtl !important;
 }
 
@@ -104,5 +107,9 @@ body footer ul {
   border-right: 2px #0eafed solid;
   padding-right: 10px;
   padding-left: 0px;
+}
+html, body {
+  margin: 0;
+  height: 100%;
 }
 /*# sourceMappingURL=rtl.css.map */

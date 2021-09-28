@@ -100,7 +100,8 @@
             شاهد
             <p>الرابط الخاص بمقطع الفيديو  : </p><input name="video" style="width: 270px;" placeholder="video Url" value="{{ $video }}" ></div>
             <center>
-                 <iframe  width="560" height="315" src="{{ $video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe  width="560" height="315" src="{{ $video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                 </div>
             </center>
         </h1>
         <br>
