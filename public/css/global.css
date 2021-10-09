@@ -332,7 +332,11 @@ button:active {
 .is-loading {
   overflow: hidden;
 }
-
+#header_image
+{
+  background-image: url('/img/slider1_rtl.jpg');
+  background-size: cover;
+}
 .page-title {
   width: 100%;
   margin: 0;
@@ -487,4 +491,33 @@ button:active {
   display: none;
 
 }
+/*scroll to top button*/
+#scroll_top
+{
+  position: fixed;
+    width: 50px;
+    display: flex;
+    height: 50px;
+    border-radius: 50%;
+    right: -60px;
+    bottom: 10px;
+    z-index: 2;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: 0.6s;
+    transform: rotate(90deg);
+}
+@media (max-width : 900px)
+{
+  #scroll_top 
+  {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}
+/*end of scroll to top button*/
+
 /*# sourceMappingURL=global.css.map */

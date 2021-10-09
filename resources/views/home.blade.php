@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="/css/home.css">
 
 <div class="home-slider">
-    <div style="background-image: url('/img/slider1_rtl.jpg')" class="slider-item">
+    <div id="header_image" style="" class="slider-item">
         <div class="filter"></div>
         <div class="slider-content">
             <p style="margin-bottom: 25px">@lang('home.welcome')</p>
@@ -19,14 +19,14 @@
     </div>
 </div>
 <div class="services-parent">
-    <div class="service-box">
+    <div class="service-box" data-aos="fade-up-left">
         <img src="/img/icons/global.svg">
         <h2>{{ $text->find(2)->$local }}</h2>
         <h1>{{ $text->find(3)->$local }} </h1>
         <p> {{ $text->find(4)->$local }}</p>
     </div>
 
-    <div class="service-box">
+    <div class="service-box" data-aos="fade-up">
         <img src="/img/icons/drug.svg">
         <h2>{{ $text->find(5)->$local }}</h2>
         <h1>{{ $text->find(6)->$local }}</h1>
@@ -34,7 +34,7 @@
 
     </div>
 
-    <div class="service-box">
+    <div class="service-box" data-aos="fade-up-right">
         <img src="/img/icons/tech.svg">
         <h2>{{ $text->find(8)->$local }}</h2>
         <h1>{{ $text->find(9)->$local }}</h1>
@@ -42,12 +42,12 @@
     </div>
 </div>
 <div style="text-align: center">
-    <a href="services" class="btn1">{{ __('home.View_services') }}</a>
+    <a href="services" class="btn1" data-aos="zoom-in">{{ __('home.View_services') }}</a>
 </div>
 <br><br>
 
 <br>
-<div class="watch-parent">
+<div class="watch-parent" data-aos="fade-up">
     <h1 class="page-title">
         {{ __('home.look') }}
         <p>{{ __('home.know_more') }}</p>
@@ -91,19 +91,19 @@
 
 <div class="counting-parent">
     <ul>
-        <li>
+        <li data-aos="zoom-out" data-aos-duration="500">
             <h1>{{ __('home.established') }}</h1>
             <p>1936</p>
         </li>
 
 
-        <li>
+        <li data-aos="zoom-out" data-aos-duration="1500">
             <h1>{{ __('home.Branches') }}</h1>
             <p>{{ $text->find(13)->ar }}</p>
         </li>
 
 
-        <li>
+        <li data-aos="zoom-out" data-aos-duration="2500">
             <h1>{{ __('home.Our_companies') }}</h1>
             <p>{{ $text->find(14)->ar }}</p>
         </li>

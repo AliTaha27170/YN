@@ -7,11 +7,13 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>YN</title>
+    <link rel="stylesheet" href="/css/aos.css">
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/libs/slick-carousel/slick/slick.css">
     <link rel="stylesheet" href="/libs/slick-carousel/slick/slick-theme.css">
     <link rel="stylesheet" href="/libs/bootstrap/dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="/libs/sider/css/sidebar.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="/css/rtl.css">
     <link rel="stylesheet" href="/css/mobile.css">
     @if(LaravelLocalization::getCurrentLocale()=='en')
@@ -39,6 +41,7 @@
 </head>
 
 <body class="is-loading">
+
 
     <div class="loading-parent">
         <img class="logo" src="/img/logo.svg">
@@ -196,6 +199,9 @@
 
     </footer>
 
+        <!-- Scroll To TOp Button -->
+        <button id="scroll_top"><i class="fas fa-arrow-up"></i></button>
+        <!-- Scroll To TOp Button -->
     <script>
         $(document).ready(function () {
             $(".loading-parent").fadeOut(800);
@@ -203,7 +209,8 @@
         })
 
     </script>
-
+    <script src="js/aos.js"></script>
+    <script src="js/scrolltotop.js"></script>
 </body>
 
 </html>
