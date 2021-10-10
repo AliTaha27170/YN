@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +33,7 @@
 
     </script>
     <style>
-        .language:lang({{ LaravelLocalization::getCurrentLocale() }}) { 
+        .language:lang({{ LaravelLocalization::getCurrentLocale() }}) {
             background: #e6e6e6ad;
           }
 
@@ -83,7 +83,7 @@
                 <li class="n-career"><a href="career"> {{ __('home.jobs') }}</a></li>
                 <li class="n-contact n-hid"><a href="contact"> {{ __('home.Connect_us') }}</a></li>
                 <li class="n-about n-hid"><a href="about"> {{ __('home.about_US') }}</a></li>
-                
+
                 <ul>
     @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
         <li>
@@ -210,7 +210,7 @@
 
     </script>
     <script src="js/aos.js"></script>
-    <script src="js/scrolltotop.js"></script>
+    <script src="{{ asset('js/scrolltotop.js') }}"></script>
 </body>
 
 </html>
