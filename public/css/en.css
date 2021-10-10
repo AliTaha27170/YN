@@ -18,3 +18,7 @@ nav .bottom-nav ul{
     border-radius:10px;
     background-color: #115a749f;
 }
+footer ul li img
+{
+    float : left ;
+}
