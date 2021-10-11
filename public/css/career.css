@@ -119,6 +119,7 @@ body {
 }
 
 .jobs-box .jobs-parent .accordion__trigger {
+  text-align: left;
   color: #222;
   padding: 15px 3%;
 }
@@ -159,6 +160,7 @@ body {
 
 .contact-info-box li {
   margin-bottom: 5px;
+  text-align: right;
 }
 
 .contact-info-box img {

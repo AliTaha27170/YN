@@ -91,6 +91,7 @@ body .jobs-box .jobs-parent .job-location img {
 body .career-box .contact-info-box img {
   margin-right: 0px;
   margin-left: 15px;
+  float: left;
 }
 
 body .accordion__heading button {
@@ -98,8 +99,8 @@ body .accordion__heading button {
 }
 
 body .accordion__heading .accordion__trigger:after {
-  right: unset;
-  left: 1em;
+  right: 1em ;
+  left: unset;
 }
 
 body footer ul {
