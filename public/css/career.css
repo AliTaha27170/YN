@@ -69,8 +69,8 @@ body {
   background: #fff;
   border-radius: 5px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 5px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0 5px 6px;
-  padding: 15px 3%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0 5px 6px;
+  padding: 75px 3% 15px;
   margin-top: -112px;
   z-index: 5;
   position: relative;
@@ -79,8 +79,14 @@ body {
 .career-box h1 {
   text-align: center;
   color: #0eafed;
+  display: none;
 }
-
+.career-creative-box
+{
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+}
 .career-box .career-creative-box h3 {
   margin: 0px;
   color: #001a4b;

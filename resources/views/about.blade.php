@@ -12,7 +12,7 @@
 
 <div style="background-image: url('/img/contact_bg.jpg')" class="career-header">
     <div class="career-header-box">
-        <h1>{{ __('about.who_are_we') }} </h1>
+        <h1>{!! __('about.who_are_we')!!} </h1>
     </div>
 
 </div>
@@ -22,7 +22,7 @@
     <img src="/img/logo.svg" class="about-logo">
     <br>
     <h3>{{ __('about.Yehia') }}</h3>
-    <p>{{ $text->find(56)->$local }}</p>
+    <p class="about-text">{!! __('about.AboutText') !!}</p>
 </div>
 
 <br><br>

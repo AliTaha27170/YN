@@ -57,9 +57,7 @@
             </div>
 
             <div class="col-md-5 career-creative-box">
-                <h3> {{ __('career.creative') }}  </h3>
-                <p> {{ $text->find(47)->$local }}</p>
-                <button class="go-jobs"> {{ __('career.continue') }}</button>
+                <img src="/img/logo.svg" alt="">
             </div>
         </div>
     </div>

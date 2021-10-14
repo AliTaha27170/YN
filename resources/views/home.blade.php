@@ -12,23 +12,22 @@
             <p style="margin-bottom: 25px">@lang('home.welcome')</p>
             <h1> @lang('home.yehia') </h1>
             <h2>{{ __('home.Commercial') }}</h2>
-            <h3>{{ $text->find(1)->$local }}</h3>
+            <h3>{!! __('home.Description') !!}</h3>
             <a href="about" class="btn1">{{ __('home.who_are_we') }}</a>
 
         </div>
     </div>
 </div>
+<h1 class="section-title">{!! __('home.SectionTitle') !!}</h1>
 <div class="services-parent">
     <div class="service-box" data-aos="fade-up-left">
         <img src="/img/icons/global.svg">
-        <h2>{{ $text->find(2)->$local }}</h2>
         <h1>{{ $text->find(3)->$local }} </h1>
         <p> {{ $text->find(4)->$local }}</p>
     </div>
 
     <div class="service-box" data-aos="fade-up">
         <img src="/img/icons/drug.svg">
-        <h2>{{ $text->find(5)->$local }}</h2>
         <h1>{{ $text->find(6)->$local }}</h1>
         <p>{{  $text->find(7)->$local }}</p>
 
@@ -36,7 +35,6 @@
 
     <div class="service-box" data-aos="fade-up-right">
         <img src="/img/icons/tech.svg">
-        <h2>{{ $text->find(8)->$local }}</h2>
         <h1>{{ $text->find(9)->$local }}</h1>
         <p>{{  $text->find(10)->$local }}</p>
     </div>
@@ -50,14 +48,14 @@
 <div class="watch-parent" data-aos="fade-up">
     <h1 class="page-title">
         {{ __('home.look') }}
-        <p>{{ __('home.know_more') }}</p>
+        <!-- <p>{{ __('home.know_more') }}</p> -->
     </h1>
     <br>
     <div class="watch-box">
         <div class="row" id="Video-Center">
             <div class="col-lg-" style="max-width: 100% ;">
                 <div class="video-bo">
-                    <iframe width="580px"  height="380px" style="margin: 26px"
+                    <iframe width="1000px"  height="550px" style="margin: 26px"
                         src="{{ $video }}" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>

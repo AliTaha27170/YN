@@ -136,7 +136,7 @@
 
     <footer>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <img src="/img/logo.svg" alt="" class="logo">
             </div>
             <div class="col-md-4">
@@ -160,7 +160,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-5">
                 <h2>{{ __('home.Contact_info') }}</h2>
                 <ul>
                     <li>

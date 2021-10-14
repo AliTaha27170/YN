@@ -22,7 +22,7 @@ return [
     'email'                  => "email",
     'write'                  => "Type your question",
     'send'                   => " send",
-    ''                       => " ",
+    'Title'                  => "YEHIA NAJIB PHARMACEUTICAL WAREHOUSE",
 
 
 

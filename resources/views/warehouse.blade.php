@@ -16,8 +16,7 @@
             <div class="side-title">
                 <img src="/img/capsules.svg" class="capsules-img">
                 <div>
-                    <h1>{{ __("drug.Drug_store") }}</h1>
-                    <h1>{{ __("drug.yehia") }}</h1>
+                    <h1>{{ __("drug.Title") }}</h1>
                 </div>
             </div>
         </div>

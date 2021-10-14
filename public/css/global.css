@@ -391,7 +391,7 @@ button:active {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 50px 8%;
+  padding: 5px 8% 50px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -447,10 +447,11 @@ button:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
   margin-bottom: 15px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .services-parent .service-box2 .sb-header img {
@@ -477,6 +478,7 @@ button:active {
 }
 
 .services-parent .service-box2 p {
+  text-align: center;
   margin: 0;
 }
 

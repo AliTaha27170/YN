@@ -48,7 +48,7 @@ a {
 }
 
 .wh-header .side-title h1 {
-  font-size: 40PX;
+  font-size: 45px;
   margin: 0;
   line-height: 80px;
   font-family: "Tajawal";
@@ -207,6 +207,7 @@ a {
 .faq-parent {
   padding: 45px 8%;
   background-image: url("/img/map-bg.png");
+  display: none;
 }
 
 .faq-parent .title {

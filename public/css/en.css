@@ -22,3 +22,11 @@ footer ul li img
 {
     float : left ;
 }
+.home-slider .slider-item .slider-content h3 , .service-cat-box ,.about-text
+{
+    direction: ltr !important;
+}
+.contact-info-box li
+{
+    text-align: left;
+}

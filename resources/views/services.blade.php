@@ -29,10 +29,10 @@
 
 </div>
 <br><br>
-<h1 class="page-title">
+<!-- <h1 class="page-title">
     {{ __('services.we_offer') }}
         <p>     {{ __('services.Main_services') }}        </p>
-</h1>
+</h1> -->
 
 
 <div class="services-parent">
