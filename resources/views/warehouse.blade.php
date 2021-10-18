@@ -79,7 +79,7 @@
                 <p>{{ $text->find(37)->$local }}</p>
             </div>
             <div class="col-md-6">
-                <img src="/img/graph.svg" class="img-box" />
+                <img src="/img/{{ LaravelLocalization::getCurrentLocale() }}.png" class="img-box" />
             </div>
 
         </div>
